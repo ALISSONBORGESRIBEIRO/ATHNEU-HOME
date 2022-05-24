@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ATHENEU PAGE</title>
+</head>
+<body>
+    <header class="cabeçalho" >
+        <img class="logo" src="https://maisatheneu.com.br/wp-content/uploads/2020/11/cropped-logo-att.png">
+    </header>
+    <section class="menu">
+        <button onclick="login()">ENTRAR</button>
+    </section>
+</body>
+</html>
+
+<script>
+
+ function login() {
+ var senha = prompt("qual é a senha?")
+
+ if (senha == "atheneu") {
+     alert("login feito com sucesso")
+     window.location.href="index2.html"
+ } else {
+     alert("senha incorreta, tente novamente.")
+ }
+}
+</script>

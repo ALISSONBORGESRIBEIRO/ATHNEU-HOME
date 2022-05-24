@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.logo {
+    width: 20vw;
+}
+
+.cabeçalho {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5em rgb(66, 66, 66);
+}
+
+.titulo {
+    margin-left: 20px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    background-color: ghostwhite;
+    border: 5px solid gray;
+    font-size: 15px;
+    margin: 10px;
+    margin-top: 150px;
+    width: 15vw;
+    height: 10vw;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+    
+
+}
+
+
+button:hover {
+    background-color: darkgrey;
+    width: 18vw;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+
+
+/*html2*/
+
+.sectioninfo {
+    background-image: url(https://ajunews.com.br/wp-content/uploads/2021/02/Atheneu-Sergipense-comemora-150-anos-de-inauguracao-com-lancamento-de-album-de-fotografias.jpg);
+    background-position: center;
+    background-size: 150%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info {
+    background-color: aliceblue;
+    margin: 30px;
+    border-radius: 20px;
+    width: 80vw;
+    height: 70vw;
+    box-shadow: 10px 5px 5px rgb(75, 75, 75);
+}
+
+.texto {
+    margin: 30px;
+}
+
+.voltar {
+    background-color: ghostwhite;
+    border: 5px solid gray;
+    font-size: 15px;
+    margin: 10px;
+    width: 15vw;
+    height: 10vw;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+    
+}
+
+.voltar:hover {
+    background-color: darkgrey;
+    width: 18vw;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.fotos {
+    background-color: white;
+    margin-top: 20px;
+}
+
+.imagens {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+img {
+    width: 49vw;
+    margin: 5px;
+}
+
+.timg {
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.escola {
+    width: 52vw;
+}
+
+@media (max-width: 650px) {
+    .sectioninfo {     
+        background-size: 320%;
+    }
+
+    .info {
+        height: 190vw;
+    }
+
+    .texto {
+        font-size: 7px;
+    }
+
+    .escola {
+        width: 42vw;
+    }
+
+    img {
+        width: 43vw;
+    }
+
+    .voltar {
+        width: 30vw;
+    }
+}

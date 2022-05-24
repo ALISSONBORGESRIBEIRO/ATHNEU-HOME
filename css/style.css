@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://ajunews.com.br/wp-content/uploads/2021/02/Atheneu-Sergipense-comemora-150-anos-de-inauguracao-com-lancamento-de-album-de-fotografias.jpg);
+    background-position: center;
+    background-size: 150%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.logo {
+    width: 20vw;
+}
+
+.cabeçalho {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5em rgb(66, 66, 66);
+}
+
+.titulo {
+    margin-left: 20px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    background-color: ghostwhite;
+    border: 5px solid gray;
+    font-size: 15px;
+    margin: 10px;
+    margin-top: 150px;
+    width: 15vw;
+    height: 10vw;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+    
+
+}
+
+
+button:hover {
+    background-color: darkgrey;
+    width: 18vw;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+
+
+
+
+@media (max-width: 650px) {
+    .logo {
+        width: 50vw;
+    }
+    
+    .cabeçalho {
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 10px;
+        height: 12vw;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 0 5em rgb(66, 66, 66);
+    }
+
+    body {     
+        background-size: 580%;
+        background-position: -800px;
+    }
+
+    button {
+        margin-top: 100vw;
+        width: 30vw;
+    }
+}
